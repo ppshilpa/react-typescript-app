@@ -6,9 +6,7 @@ interface stateToPass {
     modelShow: boolean ;
     canvasShow:boolean;
 }
-type propToPass ={
-    name:string
-}
+
 export class MainContainer extends Component<{},stateToPass> {
     constructor(props:{}) {
         super(props);

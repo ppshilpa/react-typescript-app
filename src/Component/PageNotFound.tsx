@@ -1,0 +1,1 @@
+export const PageNotFound = ()=>(<h1> We couldn't find any matches! </h1>);
